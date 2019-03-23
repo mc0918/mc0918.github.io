@@ -8,6 +8,11 @@
 
 .artistTitle {
   color: white;
+  font-weight: bolder;
+  font-size: 500%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 3%;
 }
 
 #leadText {
