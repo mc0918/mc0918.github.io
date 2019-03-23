@@ -34,7 +34,10 @@
 
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light"
+        style="background-color: #00dfcf;"
+      >
         <a class="navbar-brand" href="#">Navbar</a>
         <button
           class="navbar-toggler"
@@ -68,13 +71,49 @@
       </nav>
     </header>
 
-    <div id="container">
-      Bucca Di Beppo
+    <div
+      class="jumbotron jumbotron-fluid"
+      id="jumboPic"
+      style="text-align:center; background-size:100%;"
+    >
+      <div class="container">
+        <h1 class="display-4 artistTitle">Artists Fighting Isolation</h1>
+        <p class="lead" id="leadText">
+          This is a modified jumbotron that occupies the entire horizontal space
+          of its parent.
+        </p>
+      </div>
     </div>
 
-    <nav class="navbar fixed-bottom navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Fixed bottom</a>
-    </nav>
+    <div id="container" class="container1">
+      <p style="text-align: center">
+        <h2>Whatever text you want here</h2>
+        <h3>Smaller Text</h3>
+        <h4 style="font-family: 'Times New Roman', Times, serif">Different Font</h4>
+        </p>
+
+        <div id="container">
+          <h1 class="borderText"><strong>Projects in Development</strong></h1>
+        </div>
+
+        <div id="row">
+        <div class="card mb-3" style="max-width: 1000px; margin: auto">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <img src="./assets/images/symba.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-4">
+                <div class="card-body">
+                  <h5 class="card-title">Symba</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+    </div>
+
     <!-- Most recent JQuery CDN -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
