@@ -5,6 +5,7 @@
 // import Hammer from "hammerjs";
 
 /* Inizializzazione HammerJS */
+// $document.ready(function() {
 var element = document.getElementById("mobile_control");
 var hammertime = new Hammer(element);
 console.log(hammertime);
@@ -284,3 +285,4 @@ var planet = [
   "mercury",
   "venus"
 ];
+// });
