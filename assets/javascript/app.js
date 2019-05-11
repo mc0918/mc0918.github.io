@@ -1,8 +1,8 @@
 //ISPIRATION: https://www.uplabs.com/posts/xore-solar-system
 //Full page simoberny.it
 //Best on mobile
-import anime from "animejs";
-import Hammer from "hammerjs";
+// import anime from "animejs";
+// import Hammer from "hammerjs";
 
 /* Inizializzazione HammerJS */
 var element = document.getElementById("mobile_control");
