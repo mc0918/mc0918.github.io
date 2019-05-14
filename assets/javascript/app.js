@@ -33,7 +33,7 @@ $(".action").on("click", function() {
 
 $(".title").each(function() {
   $(this).html(
-    "About Me".replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>")
+    "Earth".replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>")
   );
 });
 
@@ -276,7 +276,7 @@ var photo_planet = [
   "https://www.universetoday.com/wp-content/uploads/2008/10/Venus-e1489179310371.jpg"
 ];
 var planet = [
-  "About Me",
+  "earth",
   "mars",
   "jupiter",
   "saturn",
