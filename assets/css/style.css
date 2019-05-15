@@ -379,6 +379,33 @@ body {
   border-radius: 50%;
   position: absolute;
 }
+
+.btn1 {
+  float: right;
+  color: darkblue;
+  background: transparent;
+  border: 2px solid darkblue;
+  border-radius: 6px;
+  /* border: none;
+  color: white; */
+  padding: 4px 8px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-bottom: 2px;
+  /* -webkit-transition-duration: 0.4s;  */
+  /* transition-duration: 0.4s; */
+  /* cursor: pointer; */
+  /* text-decoration: none; */
+  /* text-transform: uppercase; */
+}
+
+.btn1:hover {
+  background-color: darkblue;
+  color: white;
+}
+
 @keyframes planet_rotation {
   from {
     transform: rotate(0deg);

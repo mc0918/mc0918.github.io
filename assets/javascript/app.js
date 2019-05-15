@@ -26,6 +26,9 @@ hammertime.on("swipedown", function(ev) {
   closemodal();
 });
 /* * * * * * * * * */
+$(".btn1").on("click", () => {
+  closemodal();
+});
 
 $(".action").on("click", function() {
   cmove($(this).attr("id"));
@@ -33,7 +36,7 @@ $(".action").on("click", function() {
 
 $(".title").each(function() {
   $(this).html(
-    "Earth".replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>")
+    "About Me".replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>")
   );
 });
 
@@ -276,13 +279,13 @@ var photo_planet = [
   "https://www.universetoday.com/wp-content/uploads/2008/10/Venus-e1489179310371.jpg"
 ];
 var planet = [
-  "earth",
-  "mars",
-  "jupiter",
-  "saturn",
-  "uranus",
-  "neptune",
-  "mercury",
-  "venus"
+  "About Me",
+  "Contact",
+  "Gradus",
+  "spAtify",
+  "Cave Pearl Project",
+  "Gravity Model",
+  "AFI",
+  "Geoscience Work"
 ];
 // });
