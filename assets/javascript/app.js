@@ -97,9 +97,16 @@ function cmove(dir) {
     prev.addClass("pt");
   }
 
+  if (planet_id > 7) {
+    next_id = 0;
+    planet_id = 0;
+  }
+
   $(".active").removeClass("active");
   $("#p" + planet_id).addClass("active");
   $(".info_back h1").text(planet[next_id]);
+
+  console.log("id: " + planet_id);
 
   if (swiped_top) {
     $(".info_back h1").each(function() {
